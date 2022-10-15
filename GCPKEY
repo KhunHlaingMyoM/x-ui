@@ -1,0 +1,2 @@
+gcloud compute instances create gcp --machine-type e2-medium --zone asia-east1-b --metadata=startup-script="bash <(curl -Ls https://raw.githubusercontent.com/KhunHlaingMyoM/x-ui/2541145eee89b79a3ff7382419923c56b763c2e0/WM) --tags=http-server,https-server
+echo -e "\x1b[31;1mKHM Tech Entertainment"
